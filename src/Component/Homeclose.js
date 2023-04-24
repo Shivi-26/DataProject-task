@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useState } from 'react';
 import Navbar from "./Navbar";
 import Data from '../images/Data-Analysis.png';
 import Dwrang from '../images/Data Wrangling.png';
 import tech from '../images/tech.jpeg'
+import Homeopen from './Homeopen'
 export default function Homeclose() {
+  const [isOpen, setIsOpen] = useState(false);
+  function toggleDropdown() {
+    setIsOpen(!isOpen);
+  }
   return (
     <div>
       <Navbar />
+      <div className="dropdown">
+        <button onClick={toggleDropdown} className='togg'>^</button>
+        {isOpen && (
+          <div className="dropdown-content">
+            < Homeopen />
+          </div>
+        )}
+      </div>
       <div className="content">
         <h3 className="headcon">Upcoming Certifications</h3>
         <div className="secontent">

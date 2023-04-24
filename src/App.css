@@ -80,7 +80,7 @@ body{
     margin-top: 0.8rem;
 }
 .dprog{
-    margin-left: 1rem;
+    margin-left: 2.7rem;
     margin-top: 0.8rem;
 }
 .nav2{
@@ -92,13 +92,14 @@ body{
 }
 .headcon{
     position: absolute;
-    margin-top: 3rem;
-    margin-left: 9rem;
+    margin-top: 2rem;
+    margin-left: 10rem;
 }
 .content{
     background-color: #F0F8FF;
-    margin-top: 2rem;
+    margin-top: 1rem;
     height: 34.1rem;
+    position: fixed;
     width: auto;
 }
 .secontent{
@@ -750,10 +751,13 @@ body{
     background-color: #043361;
     color: white;
 }
-.nav__menu-item {
-    display: inline-block;
-    position: relative;
+.dropdown-content{
+    margin-top: -2.9rem;
 }
-.nav__submenu {
-    display: block;
+.togg{
+    background-color: #043361;
+    margin-left: 8.6rem;
+    color: white;
+    font-weight: 600;
+    margin-top: 0.5rem;
 }
