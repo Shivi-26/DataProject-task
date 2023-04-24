@@ -99,7 +99,6 @@ body{
     background-color: #F0F8FF;
     margin-top: 1rem;
     height: 34.1rem;
-    position: fixed;
     width: auto;
 }
 .secontent{
@@ -761,3 +760,4 @@ body{
     font-weight: 600;
     margin-top: 0.5rem;
 }
+  

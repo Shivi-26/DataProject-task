@@ -1,29 +1,14 @@
 import React from "react";
 import Navbar from './Navbar';
-import img1 from '../images/assignment.svg';
-import img2 from '../images/activeModuleQuiz.svg';
-import img3 from '../images/topic.svg';
 import img4 from '../images/calendar.svg';
 import img5 from '../images/clock-blue.svg';
-import { Link } from "react-router-dom";
+import Navfile from './Navfile'
 export default function Assignment() {
     return (
         <div>
             <Navbar />
-            <div className="heading">
-            <img src={img3} className="pimg" alt="" height={24} width={24} />
-                <li className="python"><Link to="/Topic">
-                Python Loops</Link></li>
-                <img src={img2} className="pimg" alt="" height={24} width={24} />
-                <li className="quz"><Link to="/Quiz">
-                Quiz-1:Data Types</Link></li>
-                <img src={img1} className="pimg" alt="" height={24} width={24} />
-                <li className="asg"><Link to="/Modules">
-                     Assignment-1:<p>Operators | Loops</p></Link>
-                </li>
-            </div>
+            <Navfile/>
             <div className="content">
-
                 <p className="ass">Quiz-1:Data Types</p>
                 <p className="calen">16 December 2021,Thursday</p>
                 <p className="mentor">Quiz Details</p>

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import home from '../images/download.png';
 export default function Navbar() {
     return (
-        <div className="first">
+        <div>
             <nav className="nav1">
                 <h1 className="head">EDYODA</h1>
                 <h6 className="para">Hi Test Learner!</h6>
